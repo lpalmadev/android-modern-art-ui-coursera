@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context="com.lpalma92.coursera.project.modernartui.ModernArtActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.64"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="134dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp" >
+
+            <LinearLayout
+                android:id="@+id/colorPanel1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.20"
+                android:background="#68F"
+                android:orientation="vertical"
+                android:paddingBottom="0dp" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/colorPanel2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.19"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:paddingTop="10dp" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp" >
+
+            <LinearLayout
+                android:id="@+id/colorPanel3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.18"
+                android:background="#888"
+                android:orientation="vertical"
+                android:paddingTop="5dp" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/colorPanel4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.20"
+                android:background="#585"
+                android:orientation="vertical"
+                android:paddingTop="5dp" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:background="#000"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/colorPanel5"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="#A55"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/colorPanel6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.48"
+                        android:background="#357"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/colorPanel7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="0.48"
+                        android:background="#CA6"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/skbColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
